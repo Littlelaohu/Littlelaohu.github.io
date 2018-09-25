@@ -18,9 +18,9 @@ js      <a href="https://littlelaohu.github.io/zhuanquan.html" target="_blank">�
         <a href="https://littlelaohu.github.io/fantan02.html" target="_blank">反弹</a>
         <a href="https://littlelaohu.github.io/xuanxiangka.html" target="_blank">选项卡</a>
         <a href="https://littlelaohu.github.io/fangdajing.html" target="_blank">放大镜</a>
-    <a href="https://littlelaohu.github.io/luobo/xxx.html" target="_blank">轮播</a>
-抽奖    <a href="https://littlelaohu.github.io/choujiang/choujiang.html" target="_blank">抽奖</a>
-飞机大战       <a href="https://littlelaohu.github.io/God/God.html" target="_blank">飞机大战</a>
+        <a href="https://littlelaohu.github.io/luobo/xxx.html" target="_blank">轮播</a>
+    <a href="https://littlelaohu.github.io/choujiang/choujiang.html" target="_blank">抽奖</a>
+      <a href="https://littlelaohu.github.io/God/God.html" target="_blank">飞机大战</a>
         <a href="https://littlelaohu.github.io/js-meitu.html" target="_blank">美图</a>
         <a href="https://littlelaohu.github.io/jq-meitu.html" target="_blank">美图</a>
 框架    <a href="https://littlelaohu.github.io/03-zhongdi/zhongdi.html" target="_blank">bootstrap</a>
