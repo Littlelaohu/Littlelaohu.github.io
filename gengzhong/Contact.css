@@ -1,0 +1,354 @@
+ul ol li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+header {
+		background: url(img/banner.jpg) no-repeat;
+	background-size: cover;
+	padding-top: 15px;
+	min-height: 450px;
+}
+
+.top {
+	background: rgba(0, 0, 0, 0.41);
+	width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.top ul li:after {
+	content: '/';
+}
+
+.top ul li:last-of-type:after {
+	/*li:last-of-type 过滤选择器 */
+	content: '';
+}
+
+.top form {
+	line-height: 54px;
+	float: right;
+}
+
+.top ul li {
+	float: left;
+	line-height: 54px;
+	color: white;
+	padding-top: 4px;
+	list-style: none;
+}
+
+ul .fl {
+	float: left;
+}
+
+
+/*.fr {
+	float: right;
+}*/
+
+.top ul li a {
+	margin: 0 15px;
+	color: white;
+	text-decoration: none;
+	list-style: none;
+	transition: all .3s;
+}
+
+.top ul li:last-of-type a {
+	color: yellow;
+	border-top: 4px solid yellow;
+}
+
+.top ul li a:hover {
+	color: yellow;
+	border-top: 4px solid yellow;
+}
+
+.top form {
+	position: relative;
+}
+
+.top form input {
+	background: transparent;
+	outline: none;
+	border: 1px solid white;
+	padding: 5px 10px;
+	margin-right: 20px;
+}
+
+.top form input[type=submit] {
+	background: url(img/search.png) no-repeat;
+	padding: 0;
+	width: 22px;
+	height: 22px;
+	border: none;
+	background-position: center;
+	margin-right: 0;
+	position: absolute;
+	right: 25px;
+	top: 16px;
+	cursor: pointer;
+	/*光标，就是当鼠标指上去元素的时候的呈现*/
+}
+
+
+/*@font-face {
+	font-family: xxx;
+	src: url(img/xjlFont.fon);
+}*/
+
+header .center {
+	text-align: center;
+	margin: 200px 0 0 0;
+}
+
+header .center h1 {
+	/*font-family: 'xxx'"微软雅黑";*/
+	font-size: 65px;
+	color: white;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	display: inline;
+}
+ul {
+	padding: 0 0;
+	margin: 0 0;
+}
+.maine {
+	display: block;
+	position: relative;
+}
+.container1 {
+	width: 1170px;
+	height: 1062px;
+	margin: 0 auto;
+}
+.contact {
+	width: 1140px;
+	padding: 4em 0;
+	/*text-align: center;*/
+	/*margin: 0 auto;
+	display: inline-block;*/
+	
+}
+.contact h3 {
+	font-size: 3.5em;
+	text-transform: capitalize;
+	color: #394c53;
+	font-weight: 600;
+	text-align: center;
+}
+/*h3 {
+	padding: 0 0;
+	margin: 0 0;
+}*/
+.contact-map img {
+	padding: 20px 0;
+}
+.wrap {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.contactus h3 {
+	text-align: center;
+}
+
+.contactus form label {
+	width: 360px;
+	margin: 10px;
+	/*background: red;*/
+	float: left;
+}
+
+.contactus form label span {
+	font-weight: bold;
+	/*margin-bottom: 50px;*/
+}
+
+.contactus form label:nth-of-type(4) {
+	width: 1120px;
+}
+
+.contactus form label input {
+	width: 338px;
+}
+
+.contactus form label textarea {
+	width: 1098px;
+	height: 500px;
+	resize: none;
+}
+
+.contactus form label input,
+.contactus form label textarea {
+	padding: 10px;
+	border: 1px solid lightgray;
+	transition: all .3s;
+	outline: none;
+	color: #777;
+	margin-top: 5px;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.contactus form label input:hover,
+.contactus form label textarea:hover {
+	border: 1px solid orange;
+}
+
+.contactus form input[type=submit] {
+	background: #16A667;
+	border: none;
+	color: white;
+	padding: 10px 30px;
+	margin-left: 10px;
+	transition: all .3s;
+	font-weight: 400;
+	text-decoration: none;
+	
+}
+
+.contactus form input[type=submit]:hover {
+	background: orange;
+}
+/*.maine .contact .form input[type=submit]:hover {
+	background: orange;
+}*/
+
+/*<div class="contact-map">
+							<img src="img/map.png" />
+						</div>*/
+/*input:hover:after {
+	
+	transform: rotateX(90deg);
+	-webkit-transform: rotateX(90deg);
+}*/
+.section {
+	margin-top: 5em;
+	margin-bottom: 5em;
+	background: #3f454d;
+	overflow: hidden;
+}
+.container {
+	width: 1170px;
+	height: 430px;
+	position: relative;
+	margin: 0 auto;
+}
+.col-md {
+	width: 350px;
+	float: left;
+	position: relative;
+	padding: 0 15px;
+}
+.col-md h3 {
+	font-size: 2.5em;
+	color: white;
+}
+.up1 {
+	margin-top: 1.2em;
+	width: 350px;
+	height: 80px;
+}
+.up1 .up-img {
+	float: left;
+	width: 21%;
+	margin-right: 3%;
+}
+.up-img img {
+	width: 100%;
+}
+.up-text {
+	float: right;
+	width: 76%;
+}
+.up-text a {
+	font-size: 1.3em;
+	color: #fff;
+	margin-bottom: 0.3em;
+	text-decoration: none;
+}
+.up-text p {
+	font-size: 1em;
+	line-height: 1.8em;
+	color: #999;
+	padding: 0 0;
+	margin: 0 0;
+}
+a:hover {
+	transition: all 0.5s;
+	color: orange;
+}
+
+ul {
+	padding: 0 0;
+	margin: 0 0;
+}
+.col-md li {
+	font-size: 1em;
+	line-height: 1.8em;
+	color: #999;
+	list-style: none;
+	padding: 6px 12px;
+	background: url(img/list-arrow.png) no-repeat 0px 15px;
+	cursor: pointer;
+	list-style-type: none;
+	
+}
+li:hover {
+	transition: all 0.5s;
+	color: orange;
+}
+
+.message a {
+	display: block;
+	width: 100%;
+	font-size: none;
+	color: #999;
+}
+ul .phone {
+	width: 40px;
+	height: 40px;
+	background: url(img/img-sprite1.png) no-repeat -220px 0px;
+	display: inline-block;
+	float: left;
+}
+ul .smartphone {
+	width: 40px;
+	height: 40px;
+	background: url(img/img-sprite1.png) no-repeat -260px 0px;
+	display: inline-block;
+	float: left;
+}
+ul .message {
+	width: 40px;
+	height: 40px;
+	background: url(img/img-sprite1.png) no-repeat -300px 6px;
+	display: inline-block;
+	float: left;
+}
+.col-md p {
+	font-size: 1em;
+	color: #999;
+}
+.ill a {
+	width: 100%;
+	display: block;
+	font-size: 1em;
+	/*text-align: none;*/
+	color: #999;
+	display: block;
+	padding: 4px;
+	text-decoration: none;
+}
+.ill a:hover {
+	transition: all 0.5s; 
+	color: orange;
+}
+.ill {
+	height: 45px;
+}
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery.js"></script>
+</head>
+
+<body>
+    <ul class="tab">
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+    </ul>
+    <div class="on">1111111111</div>
+    <div>22222222</div>
+    <div>33333333</div>
+
+    <style>
+        div {
+            margin: 0;
+            padding: 0;
+            width: 184px;
+            height: 200px;
+            border: 1px solid #ccc;
+            display: none;
+        }
+
+        .tab {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            width: 200px;
+            overflow: hidden;
+        }
+
+        .tab li {
+            float: left;
+            width: 60px;
+            height: 30px;
+            background: #ccc;
+            color: #fff;
+            border: 1px solid red;
+            text-align: center;
+            line-height: 30px;
+            cursor: pointer;
+        }
+
+        .on {
+            display: block;
+        }
+
+        .tab li.cur {
+            background: blue;
+        }
+    </style>
+
+    <script>
+        $('.tab li').click(function () {
+            $('.tab li').eq($(this).index()).addClass('cur').siblings().removeClass('cur');
+            $('div').hide().eq($(this).index()).show();
+        });
+    </script>
+</body>
+
+</html>

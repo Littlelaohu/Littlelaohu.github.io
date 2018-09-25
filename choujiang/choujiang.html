@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<div id="content">
+			<div id="turntable">
+				<img src="images/lottery-turntable.png" />
+			</div>
+			<div id="pointer">
+				<img src="images/lottery-pointer.png" />
+			</div>
+		</div>
+		
+		<style type="text/css">
+			#content {
+				width: 650px;
+				height: 600px;
+				margin: 0 auto;
+				background: url(images/lottery-turntable-bg.jpg) no-repeat;
+				position: relative;
+			}
+			#content #turntable {
+				width: 450px;
+				height: 450px;
+				position: absolute;
+				top: 60px;
+				left: 120px;
+				
+			}
+			#content #pointer {
+				width: 174px;
+				height: 228px;
+				position: absolute;
+				top: 150px;
+				left: 255px;
+				cursor: pointer;
+			}
+		</style>
+		
+		
+		<script>
+			var turntable = document.getElementById("turntable");
+			var pointer = document.getElementById("pointer");
+			
+			var lottery = function  () {
+				var randomNumber = Math.floor(Math.random() * 100);
+				if (randomNumber < 1) {
+					return {
+						code: 1,
+						text: "一等奖"
+					};
+				} else if(randomNumber < 5) {
+					return {
+						code: 2,
+						text: "二等奖"
+					};
+				} else if(randomNumber < 13) {
+					return {
+						code: 3,
+						text: "三等奖"
+					};
+				} else if(randomNumber < 13) {
+					return {
+						code: 4,
+						text: "四等奖"
+					};
+				} else if(randomNumber < 13) {
+					return {
+						code: 5,
+						text: "五等奖"
+					};
+				
+				} else if(randomNumber < 13) {
+					return {
+						code: 6,
+						text: "六等奖"
+					};
+				} else {
+					return {
+						code: 7,
+						text: "没中奖"
+					};
+				}
+			};
+			
+			var rotate = function  () {
+				turntable.style.transition = "all 3s";
+				
+				var x = lottery();
+				var currentAngle = 30 + (360 / 7) * (x.code - 1);
+				turntable.style.transform = 'rotate(' + (currentAngle + 360 * 3) + 'deg)';
+				
+				setTimeout(function() {
+					turntable.style.transition = 'all 0s';
+					turntable.style.transform = 'rotate(' + currentAngle + 'deg)';
+					alert(x.text);
+					canClick = true;
+				},3000);
+			};
+			
+			var canClick = true;
+			
+			pointer.onclick = function() {
+				if(canClick === true) {
+					rotate();
+				}
+				canClick = false;
+			};
+		</script>
+	</body>
+</html>

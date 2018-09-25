@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="getdata()">获取数据</button>
+    <div id="box"></div>
+    <img src="" alt="">
+
+    <style>
+        img {
+            width: 200px;
+        }
+
+        button {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: red;
+        }
+    </style>
+
+    <script>
+        var xmlhttp = new XMLHttpRequest();
+        var APIrul = 'https://www.apiopen.top/meituApi?page=';
+        var page = 1;
+        var json;
+
+        function getdata() {
+            var currentUrl = APIrul + page;
+            xmlhttp.open('get', currentUrl);
+            xmlhttp.send();
+            page++;
+        }
+
+        xmlhttp.onreadystatechange = function () {
+            if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
+                json = JSON.parse(xmlhttp.responseText);
+
+                for (var i = 0; i < json.data.length; i++) {
+                    var imgNode = new Image();
+                    var imgNode = document.createElement('img');
+                    imgNode.src = json.data[i].url;
+                    document.body.appendChild(imgNode);
+                    
+                }
+            }
+        }
+    </script>
