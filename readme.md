@@ -1,6 +1,6 @@
 https://littlelaohu.github.io/
 
-种地 <a href='https://littlelaohu.github.io/gengzhong/zhongcai.html'></a>
+种地 <a href="https://littlelaohu.github.io/gengzhong/zhongcai.html" target="_blank">种地</a>
 
 炉石 https://littlelaohu.github.io/lushi/lushi.html
 
