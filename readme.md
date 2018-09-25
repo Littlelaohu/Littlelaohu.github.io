@@ -2,25 +2,26 @@ https://littlelaohu.github.io/
 
 种地 <a href="https://littlelaohu.github.io/gengzhong/zhongcai.html" target="_blank">种地</a>
 
-炉石 https://littlelaohu.github.io/lushi/lushi.html
+<a href="https://littlelaohu.github.io/lushi/lushi.html" target="_blank">炉石</a>
 
-css样式 https://littlelaohu.github.io/04-animation.html
-        https://littlelaohu.github.io/CSS3-xuanze.html
-        https://littlelaohu.github.io/transition.html
-        https://littlelaohu.github.io/css3-3dxuanzhuan/index.html
-        https://littlelaohu.github.io/05-transform-box.html
+css样式 <a href="https://littlelaohu.github.io/04-animation.html" target="_blank">https://littlelaohu.github.io/04-animation.html</a>
+        <a href="https://littlelaohu.github.io/CSS3-xuanze.html" target="_blank">2</a>
+        <a href="https://littlelaohu.github.io/04-animation.html" target="_blank">3</a>
+        <a href="https://littlelaohu.github.io/transition.html" target="_blank">4</a>
+        <a href="https://littlelaohu.github.io/css3-3dxuanzhuan/index.html" target="_blank">5</a>
+        <a href="https://littlelaohu.github.io/05-transform-box.html" target="_blank">6</a>
 
-button  https://littlelaohu.github.io/04-chart-less/chart.html
+button  <a href="https://littlelaohu.github.io/04-chart-less/chart.html" target="_blank">button</a>
 
-js      https://littlelaohu.github.io/zhuanquan.html
-        https://littlelaohu.github.io/fantan01.html
-        https://littlelaohu.github.io/fantan02.html
-        https://littlelaohu.github.io/xuanxiangka.html
-        https://littlelaohu.github.io/fangdajing.html
-轮播    https://littlelaohu.github.io/lunbo/xxx.html
-抽奖    https://littlelaohu.github.io/choujiang/choujiang.html
-飞机大战        https://littlelaohu.github.io/God/God.html
-        https://littlelaohu.github.io/js-meitu.html
-        https://littlelaohu.github.io/jq-meitu.html
-框架    https://littlelaohu.github.io/03-zhongdi/zhongdi.html
+js      <a href="https://littlelaohu.github.io/zhuanquan.html" target="_blank">转圈</a>
+        <a href="https://littlelaohu.github.io/fantan01.html" target="_blank">反弹</a>
+        <a href="https://littlelaohu.github.io/fantan02.html" target="_blank">反弹</a>
+        <a href="https://littlelaohu.github.io/xuanxiangka.html" target="_blank">选项卡</a>
+        <a href="https://littlelaohu.github.io/fangdajing.html" target="_blank">放大镜</a>
+轮播    <a href="https://littlelaohu.github.io/lunbo/xxx.html" target="_blank">轮播</a>
+抽奖    <a href="https://littlelaohu.github.io/choujiang/choujiang.html" target="_blank">抽奖</a>
+飞机大战       <a href="https://littlelaohu.github.io/God/God.html" target="_blank">飞机大战</a>
+        <a href="https://littlelaohu.github.io/js-meitu.html" target="_blank">美图</a>
+        <a href="https://littlelaohu.github.io/jq-meitu.html" target="_blank">美图</a>
+框架    <a href="https://littlelaohu.github.io/03-zhongdi/zhongdi.html" target="_blank">bootstrap</a>
         
