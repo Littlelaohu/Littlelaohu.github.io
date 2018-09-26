@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="bigbigbox">
+			<div class="bigbox">
+				<div class="side font">font</div>
+				<div class="side back">back</div>
+				<div class="side top">top</div>
+				<div class="side bottom">bottom</div>
+				<div class="side left">left</div>
+				<div class="side right">right</div>
+			</div>
+		</div>
+		<style type="text/css">
+			.bigbigbox {
+				width: 100px;
+				height: 100px;
+				/*background: lightgray;*/
+				margin: 100px auto;
+				}
+			.bigbox {
+				width: 100px;
+				height: 100px;
+				margin: 0 auto;
+				/*background: lightcoral;*/
+				/*border: 1px solid red;*/
+				position: relative;
+				transform-style: preserve-3d;
+				transform: rotateX(-30deg) rotateY(30deg);
+				animation: stage 3s linear infinite;
+				animation-timing-function: steps(4,start);
+			}
+			.side {
+				width: 100px;
+				height: 100px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				/*background: lightgoldenrodyellow;*/
+				text-align: center;
+				font-size: 20px;
+				line-height: 100px;
+			}
+			.font {
+				background: rgba(0,255,0,1);
+				transform: translateZ(50px);
+			}
+			.back {
+				background: rgba(255,255,0,1);
+				transform: translateZ(-50px) rotateY(180deg);
+			}
+			.top {
+				background: lightblue;
+				transform: translateY(-50px) rotateX(90deg);
+			} 
+			.bottom {
+				background: lightcoral;
+				transform: translateY(50px) rotateX(90deg);
+			}
+			.right {
+				background: lightcyan;
+				transform: translateX(50px) rotateY(90deg);
+			}
+			.left {
+				background: lightpink;
+				transform: translateX(-50px) rotateY(-90deg);
+			}
+			@keyframes stage{
+				0% {transform: rotateY(0deg);}
+				25% {transform: rotateY(90deg);}
+				50% {transform: rotateY(180deg);}
+				75% {transform: rotateY(270deg);}
+				100% {transform: rotateY(360deg);}
+				}
+		</style>
+		<div class="container">
+			<div class="cube">
+				<div class="zide zide1"></div>
+				<div class="zide zide2"></div>
+				<div class="zide zide3"></div>
+				<div class="zide zide4"></div>
+				<div class="zide zide5"></div>
+				<div class="zide zide6"></div>
+			</div>
+		</div>
+		<style type="text/css">
+		.container {
+			position: absolute;
+			height: 100px;
+			width: 100px;
+			left: 30%;
+			top: 50%;
+			/*background: lightcoral;*/
+			/*transform: translateX(-50px) translateY(-50px);*/
+			perspective: 400px;
+			
+		}
+		.cube {
+			height: 100px;
+			width: 100px;
+			transform-style: preserve-3d;
+		/*	background: lightskyblue;*/
+			animation: rotate 4s infinite ease-in-out;
+		}
+		.zide {
+			height: 100px;
+			width: 100px;
+			/*background: lightgoldenrodyellow;*/
+			position: absolute;
+			display: block;
+			border-radius: calc(50%);
+		}
+		.zide1 {
+			transform: translateZ(100px);
+			background: #41C3AC;
+		}
+		.zide2 {
+			background: #FF884D;
+			transform: rotateY(90deg) translateZ(100px);
+		}
+		.zide3 {
+			background: #32526E;
+			transform: rotateY(180deg) translateZ(100px);
+		}
+		.zide4 {
+			background: #65A2C5;
+			transform: rotateY(-90deg) translateZ(100px);
+		}
+		.zide5 {
+			background: #FFCC5C;
+			transform: rotateX(90deg) translateZ(100px);
+		}
+		.zide6 {
+			background: #FF6B57;
+			transform: rotateX(-90deg) translateZ(100px);
+		}
+		@keyframes rotate{
+			0% {
+				transform: rotateX(0deg) rotateY(0deg);
+			}
+			50% {
+				transform: rotateX(360deg) rotateY(0deg);
+			}
+			100% {
+				transform: rotateX(360deg) rotateY(360deg);
+			}
+		}
+	
+		<script src="https://cdn.bootcss.com/prefixfree/1.0.7/prefixfree.min.js"></script>
+	</body>
+</html>

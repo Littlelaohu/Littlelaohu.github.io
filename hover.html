@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<a class="ddv">ddvss</a>
+		<br />
+		<br />
+		<a class="ccvs">ccvss</a>
+		<style type="text/css">
+			.ddv {
+				padding: 10px 15px;
+				display: inline-block;
+				background: lightblue;
+				transform-origin: 0 100% 0;
+			}
+			.ddv:hover {
+				animation: skew0 1s ease-in-out;
+			}
+			@keyframes skew0 {
+				0% {transform: skew(0deg);}
+				10% {transform: skew(-12deg);}
+				20% {transform: skew(10deg);}
+				30% {transform: skew(-4deg);}
+				50% {transform: skew(6deg);
+				70% {transform: skew(-4deg);}
+				100% {transform: skew(10deg);}
+				
+			}
+					
+		</style>
+		<style type="text/css">
+			.ccvs {
+				padding: 15px 10px;
+				display: inline-block;
+				background: red;
+				transform-origin: center 500% 0;
+			}
+			.ccvs:hover {
+				animation: rotate 1s infinite;
+			}
+			@keyframes rotate {
+				0% {transform: rotate(0deg);}
+				10% {transform: rotate(-1deg);}
+				20% {transform: rotate(0.8deg);}
+				30% {transform: rotate(-0.5deg);}
+				50% {transform: rotate(0.9deg);
+				70% {transform: rotate(-0.5deg);}
+				100% {transform: rotate(0.5deg);}
+				
+			}
+			
+		</style>
+		<br /><br />
+		<a class="ddvs">ddvss</a>
+		<style type="text/css">
+			.ddvs {
+				padding: 15px 35px;
+				display: inline-block;
+				background: red;
+				position: relative;
+				overflow: hidden;
+				z-index: 1;
+			}
+			.ddvs:hover:before {
+			transform: scale(2);
+			}
+			.ddvs:before {
+				content: '';
+				width: 100%;
+				height: 100%;
+				display: block;
+				background: lightblue;
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: -1;
+				border-radius: 50%;
+				transform: scale(0);
+				transition: all 1s;
+			}
+		</style>
+	<div class="run"></div>
+	<style type="text/css">
+		.run {
+			width: 180px;
+			height: 300px;
+			background: lightblue url(img/sprites.png);
+			animation-name: run;
+			animation-duration: 2s;
+			animation-timing-function: steps(7,start);
+			animation-iteration-count: infinite;
+		}
+		@keyframes run{
+			0% {background-position: 180px;}
+			100% {background-position: 100%;}
+		}
+	</style>
+		<div class="jump"></div>
+	<style type="text/css">
+		.jump {
+			width: 76.5px;
+			height: 81px;
+			background: lightblue url(img/sprites-IORI.jpg);
+			animation-name: jump;
+			animation-duration: 2s;
+			animation-timing-function: steps(26,start);
+			animation-iteration-count: infinite;
+		}
+		@keyframes jump{
+			0% {background-position: 0px;}
+			100% {background-position: 100%;}
+		}
+	</style>
+		<script src="https://cdn.bootcss.com/prefixfree/1.0.7/prefixfree.min.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

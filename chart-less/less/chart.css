@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+}
+.background {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  background: linear-gradient(120deg, rgba(50, 150, 100, 0.4), rgba(0, 0, 100, 0));
+  perspective: 1500px;
+  overflow: hidden;
+}
+.background::before {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 200, 0.4), rgba(0, 0, 200, 0));
+}
+.background::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(240deg, rgba(150, 50, 50, 0.4), rgba(0, 0, 200, 0));
+}
+input {
+  display: none;
+}
+input + .card {
+  width: 250px;
+  height: 300px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  transform-style: preserve-3d;
+  transition: all 0.3s;
+  border-radius: 20px;
+  transform-origin: 50% 50% 200px;
+}
+input + .card::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  background: rgba(117, 117, 117, 0.6);
+  transition: inherit;
+  border-radius: inherit;
+  z-index: -2;
+}
+input + .card .layer {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+}
+input + .card .photo {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  background: url(../img/600X600.jpg) no-repeat bottom center;
+  background-size: cover;
+  z-index: -1;
+  border-radius: inherit;
+}
+input + .card .photo::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 0, 0);
+  border-radius: inherit;
+  transition: inherit;
+}
+input + .card .chart {
+  font-size: 0;
+}
+input + .card .chart .bar {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 8px;
+  transform: rotate(-45deg);
+  transform-style: preserve-3d;
+  position: relative;
+  text-align: center;
+  line-height: 20px;
+  transition: all 0.3s;
+}
+input + .card .chart .bar::before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  content: "";
+  background: linear-gradient(to bottom, #feffff 0%, #85d7f7 0%, #4c8596 100%);
+  transform-origin: 50% 0 0;
+  transform: translateY(20px) rotateX(90deg);
+  height: 0px;
+  transition: inherit;
+}
+input + .card .chart .bar::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  content: "M";
+  background: white;
+  transform: translateZ(0px);
+  transition: inherit;
+}
+input + .card .chart .bar span {
+  width: 0px;
+  display: block;
+  background: #a0d8ef;
+  transform-origin: 0 50% 0;
+  transform: rotateY(-90deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: inherit;
+}
+input + .card .chart .bar1 {
+  transition: all 0.54s;
+}
+input + .card .chart .bar2 {
+  transition: all 0.255s;
+}
+input + .card .chart .bar3 {
+  transition: all 0.396s;
+}
+input + .card .chart .bar4 {
+  transition: all 0.69s;
+}
+input + .card .chart .bar5 {
+  transition: all 0.18s;
+}
+input + .card .chart .bar6 {
+  transition: all 0.18s;
+}
+input + .card .chart .bar7 {
+  transition: all 0.255s;
+}
+input:checked + .card {
+  transform: rotateX(60deg) rotateY(0deg) translateZ(100px);
+}
+input:checked + .card::after {
+  transform: translateZ(-20px);
+}
+input:checked + .card .photo::before {
+  background: rgba(46, 129, 224, 0.8);
+}
+input:checked + .card .chart .bar1::before {
+  height: 180px;
+}
+input:checked + .card .chart .bar1::after {
+  transform: translateZ(180px);
+}
+input:checked + .card .chart .bar1 span {
+  width: 180px;
+}
+input:checked + .card .chart .bar2::before {
+  height: 85px;
+}
+input:checked + .card .chart .bar2::after {
+  transform: translateZ(85px);
+}
+input:checked + .card .chart .bar2 span {
+  width: 85px;
+}
+input:checked + .card .chart .bar3::before {
+  height: 132px;
+}
+input:checked + .card .chart .bar3::after {
+  transform: translateZ(132px);
+}
+input:checked + .card .chart .bar3 span {
+  width: 132px;
+}
+input:checked + .card .chart .bar4::before {
+  height: 230px;
+}
+input:checked + .card .chart .bar4::after {
+  transform: translateZ(230px);
+}
+input:checked + .card .chart .bar4 span {
+  width: 230px;
+}
+input:checked + .card .chart .bar5::before {
+  height: 60px;
+}
+input:checked + .card .chart .bar5::after {
+  transform: translateZ(60px);
+}
+input:checked + .card .chart .bar5 span {
+  width: 60px;
+}
+input:checked + .card .chart .bar6::before {
+  height: 60px;
+}
+input:checked + .card .chart .bar6::after {
+  transform: translateZ(60px);
+}
+input:checked + .card .chart .bar6 span {
+  width: 60px;
+}
+input:checked + .card .chart .bar7::before {
+  height: 85px;
+}
+input:checked + .card .chart .bar7::after {
+  transform: translateZ(85px);
+}
+input:checked + .card .chart .bar7 span {
+  width: 85px;
+}

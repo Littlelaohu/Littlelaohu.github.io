@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<label>
+			<input type="checkbox" name="" id="" value="" />
+			<i class="dr"><i class="dt"></i></i>
+		</label>
+		<br />
+		<label>
+			<input type="checkbox" name="" id="" value="" />
+			<i class="bg"><i class="bt"></i></i>
+		</label>
+		<br />
+		<style type="text/css">
+			i.dr {
+				width: 60px;
+				height: 30px;
+				background: lightgray;
+				display: block;
+				border-radius: 30px;
+				overflow: hidden;
+				transition: all .3s;
+			}
+			.dt {
+				width:20px;
+				height: 20px;
+				background: white;
+				display: block;
+				border-radius: 50%;
+				margin: 5px;
+				position: relative;
+				transition: all .3s;
+				top: 0;
+				left: 0;
+			}
+			input {
+				display: none;
+			}
+			input:checked+i.dr i.dt {
+				left: 30px;
+			}
+			input:checked+i.dr {
+				background: lightslategray;
+			}
+			/**/
+			i.bg {
+				width: 60px;
+				height: 34px;
+				background: lightgray;
+				display: block;
+				overflow: hidden;
+				transition: all .3s;
+			}
+			.bt {
+				width: 20px;
+				height: 20px;
+				display: block;
+				background: white;
+				margin: 7px 5px;
+				position: relative;
+				top: 0;
+				left: 0;
+				transition: all .3s;
+			}
+			input:checked+i.bg i.bt {
+				left: 30px;
+			}
+			input:checked+i.bg {
+				background: lightblue;
+			}
+		</style>
+		<hr />
+		<center>
+			<h1>jQuery单选框跟复选框美化代码演示</h1>
+			<h3>您的职业（单选框）</h3>
+				<label class="switch">
+					<input type="radio" name="profession" />
+					<div class="slider">视觉设计师</div>
+				</label>
+				<label class="switch">
+					<input type="radio" name="profession" />
+					<div class="slider">交互设计师</div>
+				</label>
+				<label class="switch">
+					<input type="radio" name="profession" />
+					<div class="slider">前端工程师</div>
+				</label>
+				<label class="switch">
+					<input type="radio" name="profession" />
+					<div class="slider">数据分析师</div>
+				</label>
+				<label class="switch">
+					<input type="radio" name="profession" />
+					<div class="slider">不可用</div>
+				</label>
+			<hr />
+			<h3>您擅长的技能（复选框）</h3>
+				<label class="switch">
+					<input type="checkbox"/>
+					<div class="slider">HTML</div>
+				</label>
+				<label class="switch">
+					<input type="checkbox"/>
+					<div class="slider">CSS</div>
+				</label>
+				<label class="switch">
+					<input type="checkbox"/>
+					<div class="slider">JavaScript</div>
+				</label>
+				<label class="switch">
+					<input type="checkbox"/>
+					<div class="slider">SEO</div>
+				</label>
+				<label class="switch">
+					<input type="checkbox"/>
+					<div class="slider">PHP</div>
+				</label>
+				<label class="switch">
+					<input type="checkbox"/>
+					<div class="slider">JAVA</div>
+				</label>
+				<label class="switch">
+					<input type="checkbox"/>
+					<div class="slider">.NET</div>
+				</label>
+		</center>
+		<style type="text/css">
+			.switch {
+				display: inline-block; 
+			}
+			.switch input {
+				display: none;
+			}
+			.switch .slider {
+				background: #EAEAEA;
+				line-height: 36px;
+				border-radius: 3px;
+				font-size: 12px;
+				color: #b3b3b3;
+				padding: 0 10px;
+			}
+			.switch .slider:before {
+				content: '';
+				width: 16px;
+				height: 16px;
+				display: inline-block;
+				background: url(img/input-unchecked.png);
+				vertical-align: middle;
+				margin-right: 5px;
+				margin-top: -2px;
+				}
+			.switch input:checked + .slider{
+				background: lightblue;
+			}
+			.switch input:checked + .slider:before {
+				background: url(img/input-checked.png);
+			}
+		</style>
+	</body>
+</html>
