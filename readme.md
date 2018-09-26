@@ -21,7 +21,7 @@ https://littlelaohu.github.io/
 [button](https://littlelaohu.github.io/chart-less/index.html) https://littlelaohu.github.io/chart-less/index.html
 
 ## JavaScript
-1      <a href="https://littlelaohu.github.io/zhuanquan.html" target="_blank">转圈</a>
+[]      <a href="https://littlelaohu.github.io/zhuanquan.html" target="_blank">转圈</a>
         <a href="https://littlelaohu.github.io/fantan01.html" target="_blank">反弹</a>
         <a href="https://littlelaohu.github.io/fantan02.html" target="_blank">反弹</a>
         <a href="https://littlelaohu.github.io/xuanxiangka.html" target="_blank">选项卡</a>
