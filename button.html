@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="button">
+			<span>Simple button</span>
+			<i></i>
+		</div>
+		<style>
+			.button{
+				width: 200px;
+				height: 50px;
+				background: lightblue;
+				margin: 0 auto;
+				border-radius: 10px;
+				text-align: center;
+				position: relative;
+				z-index: 1;
+				overflow: hidden;
+				display: block;
+			}
+			span{
+				display: block;
+				line-height: 50px;
+				color: white;
+				
+			}
+			span+i{
+				content: '';
+				width: 100px;
+				height: 100px;
+				background: lime;
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				border-radius: 50%;
+				transform: scale(0);
+				z-index: -1;
+				transition: all .5s;
+			}
+			span.active+i{
+				transform: scale(5);
+			}
+		</style>
+		<script>
+			$('span').hover( function (ev) {
+				$('span+i').css({
+					top: (ev.clientY - $('span').offset().top - 50),
+					left: (ev.clientX - $('span').offset().left - 50)
+				})
+				$('span').addClass('active');
+				console.log((ev.clientX - $('span').offset().left) + '/' + (ev.clientY - $('span').offset().top))
+			}, function(){
+				$('span').removeClass('active');
+			}
+			)
+				
+		</script>
+	</body>
+</html>

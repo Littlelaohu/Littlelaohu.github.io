@@ -42,6 +42,10 @@ https://littlelaohu.github.io/
 
 [放大镜](https://littlelaohu.github.io/fangdajing.html) https://littlelaohu.github.io/fangdajing.html
 
+[鼠标hover](https://littlelaohu.github.io/button.html) https://littlelaohu.github.io/button.html
+
+[跟随鼠标](https://littlelaohu.github.io/csshuadong.html) https://littlelaohu.github.io/csshuadong.html
+
 ## bootstrap
 
 [bootstrap](https://littlelaohu.github.io/03-zhongdi/zhongdi.html) https://littlelaohu.github.io/03-zhongdi/zhongdi.html
