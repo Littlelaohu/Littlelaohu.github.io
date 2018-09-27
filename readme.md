@@ -21,11 +21,15 @@ https://littlelaohu.github.io/
 [button](https://littlelaohu.github.io/chart-less/index.html) https://littlelaohu.github.io/chart-less/index.html
 
 ## JavaScript
-[]      <a href="https://littlelaohu.github.io/zhuanquan.html" target="_blank">转圈</a>
-        <a href="https://littlelaohu.github.io/fantan01.html" target="_blank">反弹</a>
-        <a href="https://littlelaohu.github.io/fantan02.html" target="_blank">反弹</a>
-        <a href="https://littlelaohu.github.io/xuanxiangka.html" target="_blank">选项卡</a>
-        <a href="https://littlelaohu.github.io/fangdajing.html" target="_blank">放大镜</a>
+[转圈](https://littlelaohu.github.io/zhuanquan.html) https://littlelaohu.github.io/zhuanquan.html
+
+[反弹](https://littlelaohu.github.io/fantan01.html) https://littlelaohu.github.io/fantan01.html
+
+[反弹2](https://littlelaohu.github.io/fantan02.html) https://littlelaohu.github.io/fantan02.html
+
+[选项卡](https://littlelaohu.github.io/xuanxiangka.html) https://littlelaohu.github.io/xuanxiangka.html
+
+[放大镜](https://littlelaohu.github.io/fangdajing.html) https://littlelaohu.github.io/fangdajing.html
         <a href="https://littlelaohu.github.io/luobo/xxx.html" target="_blank">轮播</a>
     <a href="https://littlelaohu.github.io/choujiang/choujiang.html" target="_blank">抽奖</a>
       <a href="https://littlelaohu.github.io/God/God.html" target="_blank">飞机大战</a>
