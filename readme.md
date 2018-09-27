@@ -29,11 +29,20 @@ https://littlelaohu.github.io/
 
 [选项卡](https://littlelaohu.github.io/xuanxiangka.html) https://littlelaohu.github.io/xuanxiangka.html
 
+[飞机大战](https://littlelaohu.github.io/God/God.html) https://littlelaohu.github.io/God/God.html
+
+[美图](https://littlelaohu.github.io/js-meitu.html) https://littlelaohu.github.io/js-meitu.html
+
+## jquery
+[轮播](https://littlelaohu.github.io/luobo/xxx.html) https://littlelaohu.github.io/luobo/xxx.html
+
+[抽奖](https://littlelaohu.github.io/choujiang/choujiang.html) https://littlelaohu.github.io/choujiang/choujiang.html
+
+[美图](https://littlelaohu.github.io/jq-meitu.html) https://littlelaohu.github.io/js-meitu.html
+
 [放大镜](https://littlelaohu.github.io/fangdajing.html) https://littlelaohu.github.io/fangdajing.html
-        <a href="https://littlelaohu.github.io/luobo/xxx.html" target="_blank">轮播</a>
-    <a href="https://littlelaohu.github.io/choujiang/choujiang.html" target="_blank">抽奖</a>
-      <a href="https://littlelaohu.github.io/God/God.html" target="_blank">飞机大战</a>
-        <a href="https://littlelaohu.github.io/js-meitu.html" target="_blank">美图</a>
-        <a href="https://littlelaohu.github.io/jq-meitu.html" target="_blank">美图</a>
-框架    <a href="https://littlelaohu.github.io/03-zhongdi/zhongdi.html" target="_blank">bootstrap</a>
+
+## bootstrap
+
+[bootstrap](https://littlelaohu.github.io/03-zhongdi/zhongdi.html) https://littlelaohu.github.io/03-zhongdi/zhongdi.html
         
