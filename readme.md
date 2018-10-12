@@ -42,6 +42,7 @@ https://littlelaohu.github.io/
 
 [放大镜](https://littlelaohu.github.io/fangdajing.html) https://littlelaohu.github.io/fangdajing.html
 [放大镜](https://littlelaohu.github.io/kaoshi.html)
+https://littlelaohu.github.io/kaoshi.html
 
 [鼠标hover](https://littlelaohu.github.io/button.html) https://littlelaohu.github.io/button.html
 
