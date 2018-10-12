@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+	</head>
+
+	<body>
+
+		<body>
+			<h3 align="center">员工信息</h3>
+			<table border="1px" cellspacing="0" width="50%" align="center">
+				<tr>
+					<th></th>
+					<th>姓名</th>
+					<th>薪水</th>
+					<th>年龄</th>
+				</tr>
+				<tr class="classw">
+					<td>
+						<input type="checkbox" value="1" name="check" onclick="myselect()" />
+					</td>
+					<td>
+						张三
+					</td>
+					<td>
+						20000
+					</td>
+					<td>
+						23
+					</td>
+				</tr>
+				<tr class="classg">
+					<td>
+						<input type="checkbox" value="1" name="check" onclick="myselect()" />
+					</td>
+					<td>
+						李四
+					</td>
+					<td>
+						22000
+					</td>
+					<td>
+						22
+					</td>
+				</tr>
+				<tr class="classw">
+					<td>
+						<input type="checkbox" value="1" name="check" onclick="myselect()" />
+					</td>
+					<td>
+						王五
+					</td>
+					<td>
+						14000
+					</td>
+					<td>
+						26
+					</td>
+				</tr>
+				<tr class="classg">
+					<td>
+						<input type="checkbox" value="1" name="check" onclick="myselect()" />
+					</td>
+					<td>
+						马六
+					</td>
+					<td>
+						15000
+					</td>
+					<td>
+						21
+					</td>
+				</tr>
+			</table>
+			<style>
+				.classw {
+					background-color: #CFF;
+				}
+				
+				.classg {
+					background-color: #FFC;
+				}
+				
+				.classy {
+					background-color: #FF0;
+				}
+			</style>
+			<script>
+				$("th").css("background-color", "#CCC");
+
+				function myselect() {
+					$("table :checkbox:checked").parent().parent().addClass("classy");
+					$("table :checkbox").not("input:checked").parent().parent().removeClass("classy");
+
+				}
+			</script>
+
+		</body>
+
+</html>

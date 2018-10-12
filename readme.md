@@ -34,6 +34,9 @@ https://littlelaohu.github.io/
 [美图](https://littlelaohu.github.io/js-meitu.html) https://littlelaohu.github.io/js-meitu.html
 
 ## jquery
+[选框](http://littlelaohu.github.io/xuankuang.html)
+http://littlelaohu.github.io/xuankuang.html
+
 [轮播](https://littlelaohu.github.io/luobo/xxx.html) https://littlelaohu.github.io/luobo/xxx.html
 
 [抽奖](https://littlelaohu.github.io/choujiang/choujiang.html) https://littlelaohu.github.io/choujiang/choujiang.html
