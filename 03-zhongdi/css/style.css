@@ -41,9 +41,7 @@ header .grids .col-xs-3 .thumbnail img {
   border-width: 5px;
 }
 header .grids .col-xs-3 .thumbnail img:hover {
-  -webkit-transform: rotateY(360deg);
-          transform: rotateY(360deg);
-  -webkit-transition: all 0.5s;
+  transform: rotateY(360deg);
   transition: all 0.5s;
 }
 header .grids .col-xs-3 .thumbnail .caption {
@@ -135,7 +133,6 @@ header .center h1 {
   border-radius: 10px;
 }
 .service-section .service-grids img:hover {
-  -webkit-transition: all .3s;
   transition: all .3s;
   background: orange;
 }
@@ -168,9 +165,7 @@ header .center h1 {
   height: 245px;
 }
 .works .card .textbox {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: all .5s;
+  transform: scale(0);
   transition: all .5s;
   position: absolute;
   top: 0;
@@ -184,8 +179,7 @@ header .center h1 {
 	      vertical-align: middle;*/
 }
 .works .card:hover .textbox {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   box-shadow: 0 0 10px 0 white;
 }
 .news-section {
@@ -333,4 +327,3 @@ header .center h1 {
 .footer-section .container .footer-bottom {
   text-align: center;
 }
-/*# sourceMappingURL=./style.css.map */
